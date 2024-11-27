@@ -256,5 +256,3 @@ if __name__ == "__main__":
             print(mes)
             input("按任意键退出")
             sys.exit(1)
-        # 打包代码
-        # nuitka --mingw64 --show-progress --standalone --enable-plugin=anti-bloat --onefile --remove-output .\DKCS.py 
